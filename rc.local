@@ -1,0 +1,7 @@
+#!/bin/sh
+
+
+touch /var/lock/subsys/local
+
+#追加的开机启动
+/etc/rc.d/run_service.sh
