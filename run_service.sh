@@ -204,11 +204,7 @@ else
 	LOG "正在启动小睿平台... ..."
 	cd ${XR_HOME}
 	XR_PACKAGE=`ls -tr *.jar |tail -1`
-	nohup java -jar "XR_PACKAGE" &
+	nohup java -jar "${XR_PACKAGE}" &
 fi
 
 LOG "开机启动完毕"
-
-
-
-
